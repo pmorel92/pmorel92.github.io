@@ -1,326 +1,48 @@
 @charset "utf-8";
-.banner {
+#bodynavul {
+	list-style-image: none;
+	list-style-type: none;
+	display: inline-block;
+}
+#NN_Logo {
+	top: 0px;
+	left: 9px;
 	position: absolute;
-	left: auto;
-	top: 201px;
-	right: auto;
-	bottom: 125px;
-	float: left;
 }
-body header img {
+#home_img {
+	position: absolute;
+	left: 366px;
+	top: 21px;
 }
-@charset "utf-8";
-#table {
-	border-width: 0px;
-	border-style: none;
-	background-color: rgba(255,255,255,1.00);
-	border-collapse: collapse;
-	display: table;
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-	font-family: Century;
+#Med_Dir {
+	position: absolute;
+	left: 536px;
+	top: 46px;
+	color: rgba(0,0,0,1.00);
+	font-family: courier-prime;
 	font-style: normal;
-	font-weight: 500;
-	text-align: center;
-}
-#mediaorg {
-	display: table-cell;
-	float: none;
-	padding-top: 50px;
-}
-#aboutnn {
-	padding-top: 50px;
+	font-weight: 700;
+	font-size: x-large;
+	text-shadow: 2pt 1px 29px;
 }
 #searchbar {
-	padding-top: 20px;
-}
-#home {
-	height: auto;
-	padding-top: 13px;
-	padding-right: 11px;
-	padding-left: 5px;
-	position: relative;
-	top: 1px;
-}
-#logo {
-	display: inherit;
-}
-@charset "utf-8";
-#nodeimg {
-	float: none;
-	display: inline;
 	position: absolute;
-	left: 450px;
-
+	left: 939px;
+	top: 72px;
 }
-@charset "utf-8";
-#headlinetxt {
-	text-align: center;
-	font-family: Century;
-	font-size: xx-large;
-	font-weight: bold;
-	font-variant: small-caps;
-	font-style: normal;
-	text-indent: 0px;
-}
-@charset "utf-8";
-#line1 {
+#about {
 	position: absolute;
-	top: 243px;
-	right: auto;
-	left: 298px;
-}
-#line2 {
-	position: absolute;
-	top: 305px;
-	left: 227px;
-}
-#line3 {
-	top: 381px;
-	position: absolute;
-	left: 80px;
-}
-#line4 {
-	position: absolute;
-	top: 427px;
-	left: 150px;
-}
-#line5 {
-	position: absolute;
-	top: 531px;
-	left: 169px;
-}
-#line6 {
-	position: absolute;
-	top: 594px;
-	left: 199px;
-}
-#line7 {
-	position: absolute;
-	top: 680px;
-	left: 207px;
-}
-#line8 {
-	position: absolute;
-	top: 710px;
-	left: 206px;
-}
-#line9 {
-	position: absolute;
-	top: 702px;
-	left: 747px;
-}
-
-
-#line10 {
-	top: 631px;
-	position: absolute;
-	left: 821px;
-}
-#line11 {
-	position: absolute;
-	top: 435px;
-	left: 867px;
-}
-#line12 {
-	position: absolute;
-	top: 493px;
-	left: 857px;
-}
-#line13 {
-}
-#line14 {
-}
-#line15 {
-	position: absolute;
-	top: 326px;
-	left: 809px;
-}
-#line16 {
-	position: absolute;
-	top: 379px;
-	left: 839px;
-}
-#line17 {
-}
-#line18 {
-}
-#line19 {
-}
-#line20 {
-}
-@charset "utf-8";
-#link1 {
+	left: 1154px;
+	top: 54px;
+	color: rgba(0,0,0,1.00);
 	font-family: courier-prime;
 	font-style: normal;
-	font-weight: 500;
-	font-size: 11pt;
-	text-align: left;
-	text-shadow: 0 0px;
-	word-spacing: -4px;
-	letter-spacing: 0;
-	background-color: rgba(253,0,4,0.35);
-	color: rgba(0,0,0,1.00);
-	border-radius: 25px;
-	border-collapse: collapse;
-	-webkit-box-shadow: 0 0;
-	box-shadow: 0 0;
-	text-decoration: none;
+	font-weight: 700;
+	font-size: x-large;
+	text-shadow: 6px 0px 22px;
 
-
-
-
-
-
-	list-style-image: ;
-	list-style-image: url(../../../Users/PhilDawgtheBigDawg/Documents/Unnamed%20Site%202/Logos/NYT%20Logo.png);
-	list-style-type: none;
 }
-#link2 {
-	top: 276px;
-	right: auto;
-	font-family: courier-prime;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 11pt;
-	text-align: left;
-	text-shadow: 0 0px 0px;
-	left: 25px;
-	word-spacing: -4px;
-	letter-spacing: 0;
-	background-color: rgba(34,253,0,0.35);
-	color: rgba(0,0,0,1.00);
-	border-radius: 25px;
-	border-collapse: collapse;
-	-webkit-box-shadow: 0 0;
-	box-shadow: 0 0;
-}
-#link3 {
-	top: 276px;
-	right: auto;
-	font-family: courier-prime;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 11pt;
-	text-align: left;
-	text-shadow: 0 0px 0px;
-	left: 25px;
-	word-spacing: -4px;
-	letter-spacing: 0;
-	background-color: rgba(238,253,0,0.35);
-	color: rgba(0,0,0,1.00);
-	border-radius: 25px;
-	border-collapse: collapse;
-	-webkit-box-shadow: 0 0;
-	box-shadow: 0 0;
-}
-#link4 {
-	top: 276px;
-	right: auto;
-	font-family: courier-prime;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 11pt;
-	text-align: left;
-	text-shadow: 0 0px 0px;
-	left: 25px;
-	word-spacing: -4px;
-	letter-spacing: 0;
-	background-color: rgba(191,0,253,0.35);
-	color: rgba(0,0,0,1.00);
-	border-radius: 25px;
-	border-collapse: collapse;
-	-webkit-box-shadow: 0 0;
-	box-shadow: 0 0;
-}
-#link5 {
-	top: 276px;
-	right: auto;
-	font-family: courier-prime;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 11pt;
-	text-align: left;
-	text-shadow: 0 0px;
-	left: 25px;
-	word-spacing: -4px;
-	letter-spacing: 0;
-	background-color: rgba(253,0,4,0.35);
-	color: rgba(0,0,0,1.00);
-	border-radius: 25px;
-	border-collapse: collapse;
-	-webkit-box-shadow: 0 0;
-	box-shadow: 0 0;
-}
-#link6 {
-	top: 276px;
-	right: auto;
-	font-family: courier-prime;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 11pt;
-	text-align: left;
-	text-shadow: 0 0px 0px;
-	left: 25px;
-	word-spacing: -4px;
-	letter-spacing: 0;
-	background-color: rgba(34,253,0,0.35);
-	color: rgba(0,0,0,1.00);
-	border-radius: 25px;
-	border-collapse: collapse;
-	-webkit-box-shadow: 0 0;
-	box-shadow: 0 0;
-}
-#link7 {
-	top: 276px;
-	right: auto;
-	font-family: courier-prime;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 11pt;
-	text-align: left;
-	text-shadow: 0 0px 0px;
-	left: 25px;
-	word-spacing: -4px;
-	letter-spacing: 0;
-	background-color: rgba(238,253,0,0.35);
-	color: rgba(0,0,0,1.00);
-	border-radius: 25px;
-	border-collapse: collapse;
-	-webkit-box-shadow: 0 0;
-	box-shadow: 0 0;
-}
-#link8 {
-	top: 276px;
-	right: auto;
-	font-family: courier-prime;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 11pt;
-	text-align: left;
-	text-shadow: 0 0px 0px;
-	left: 25px;
-	word-spacing: -4px;
-	letter-spacing: 0;
-	background-color: rgba(191,0,253,0.35);
-	color: rgba(0,0,0,1.00);
-	border-radius: 25px;
-	border-collapse: collapse;
-	-webkit-box-shadow: 0 0;
-	box-shadow: 0 0;
-}
-@charset "utf-8";
-#primary {
-	text-shadow: 0px 0px;
-	border: 14px solid rgba(255,159,85,1.00);
-	width: 375px;
-	background-color: rgba(196,203,205,1.00);
+#banner {
 	position: absolute;
-	top: 243px;
-	left: -2px;
-	border-radius: 10px;
-	-webkit-box-shadow: 0px 0px 13px 5px;
-	box-shadow: 0px 0px 13px 5px;
-	list-style: none;
+	top: 77px;
 }
