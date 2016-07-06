@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Davutoglu Resigns as Turkey's Prime Minister
 date: 2016-07-06
 ---
