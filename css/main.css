@@ -162,3 +162,12 @@
 	width: 226px;
 	height: 81px;
 }
+#feedControl {
+margin-top : 10px;
+margin-left: auto;
+margin-right: auto;
+width : 440px;
+position: absolute;
+	top: 802px;
+	left: 849px;
+}
