@@ -1,8 +1,52 @@
----
-layout: default
-title: Davutoglu Resigns as Turkey's Prime Minister
-date: 2016-07-06
----
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Noda News</title>
+<link href="/css/main.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/courier-prime:n4,n7:default.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js"
+type="text/javascript"></script>
+
+<style type="text/css">
+@import url("http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.css");
+
+#feedControl {
+margin-top : 10px;
+margin-left: auto;
+margin-right: auto;
+width : 440px;
+font-size: 12px;
+color: #9CADD0;
+}
+</style>
+<script type="text/javascript">
+function load() {
+var feed ="http://feeds.reuters.com/Reuters/worldNews";
+new GFdynamicFeedControl(feed, "feedControl");
+
+}
+google.load("feeds", "1");
+google.setOnLoadCallback(load);
+</script>
+</head>
+
+<body>
+<header>
+<nav>
+<ul id="bodynavul">
+<li> <a href="http://www.nodanews.com"><img src="https://drive.google.com/uc?export=view&id=0B2dlQu6JFxdXb25lbE5QUldqWDQ" alt="" width="181" height="70" id="NN_Logo"></a></li>
+<li id="Med_Dir"><a href "http://www.nodanews.com/media_org_dir" style="text-decoration:none; color: #000000">Media Org. Directory</a></li>
+<li id="Node_Dir"> Node Directory</li> 
+<li id="about"><a href "http://www.nodanews.com/about" style="text-decoration:none; color: #000000">About Noda News</a></li>
+</ul>
+</nav>
+</header>
+<img src="https://drive.google.com/uc?export=view&id=0B2dlQu6JFxdXRFlSN0tGeHM5aEE" alt="" width="1366" height="56" id="banner"/>
+<div id="body">
+<div id="feedControl">Loading...</div>
+</div>
 <p id="headline">Davotoglu Resigns as Turkey's Prime Minister</p>
 <img src="https://drive.google.com/uc?export=view&id=0B2dlQu6JFxdXTDFDU0dnSGJMY2M" alt="" width="444" height="534" id="node_main"/>
 <img src="https://drive.google.com/uc?export=view&id=0B2dlQu6JFxdXQlZqaE9XMl8xOFU" alt="" width="381" height="44" id="line_1"/>
@@ -26,4 +70,15 @@ date: 2016-07-06
 sssssssssssfhbkzsjfbnrjkbhniurhibvn
 rsjbhrnburhgboutnbjknsdfkvbrngubrsjk
 visjbvkjdsbvkjsbgvkjasdbvkjadbvkjflkjdfkjdbvlkjdsvkljdsbvkjdsbvkldjsbvkjldbvkljdbvjkdabjkvvjk</p>
+<form method='post' id="comment">
+  NAME: <input type='text' name='name'/><br />
 
+  Comment:<br />
+  <textarea name='comment' id="comment_box"></textarea><br />
+
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+  <input type='submit' value='Submit' />  
+</form>
+</body>
+</html>
